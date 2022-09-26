@@ -39,8 +39,8 @@ const Hufflepuff = () => {
         <S.Box>
           {huffle.map( item => (
             <S.HuffleCard>
-            { item.image && (<S.IMG src={item.image}/>)
-            || (<S.IMG src={HuffleImg}/>)}
+            { item.image ? (<S.IMG src={item.image} alt={item.name}/>)
+            : (<S.IMG src={HuffleImg} alt="Hufflepuff symbol"/>)}
             <S.UL>
               <S.LI>Nome: {item.name}</S.LI>
               <S.LI>Ator: {item.actor}</S.LI>

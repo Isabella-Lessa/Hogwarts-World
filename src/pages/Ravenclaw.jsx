@@ -39,8 +39,8 @@ const Ravenclaw = () => {
         <S.Box>
           {raven.map( item => (
             <S.RavenCard>
-            { item.image ? (<S.IMG src={item.image}/>)
-            : (<S.IMG src={RavenImg}/>) }
+            { item.image ? (<S.IMG src={item.image} alt={item.name}/>)
+            : (<S.IMG src={RavenImg} alt="Ravenclaw symbol"/>) }
             <S.UL>
               <S.LI>Nome: {item.name}</S.LI>
               <S.LI>Ator: {item.actor}</S.LI>

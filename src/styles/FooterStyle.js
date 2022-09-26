@@ -91,6 +91,13 @@ export const Copy = styled.p`
     }
 `
 
+export const BTN = styled.button`
+    width: 10%;
+    height: 6em;
+    border: none;
+    background-color: #2E2E33;
+`
+
 export const Arrow = styled.img`
     width: 68px;
     cursor: pointer;

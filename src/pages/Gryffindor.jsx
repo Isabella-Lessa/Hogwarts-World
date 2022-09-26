@@ -39,8 +39,8 @@ const Gryffindor = () => {
         <S.Box>
           {gryf.map( item => (
             <S.GryfCard>
-            { item.image ? (<S.IMG src={item.image}/>)
-            : (<S.IMG src={GryfImg}/>)}
+            { item.image ? (<S.IMG src={item.image} alt={item.name}/>)
+            : (<S.IMG src={GryfImg} alt="Gryffindor symbol"/>)}
             <S.UL>
               <S.LI>Nome: {item.name}</S.LI>
               <S.LI>Ator: {item.actor}</S.LI>

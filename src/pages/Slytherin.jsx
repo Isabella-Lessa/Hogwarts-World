@@ -38,8 +38,8 @@ const Slytherin = () => {
         <S.Box>
           {sly.map( item => (
             <S.SlyCard>
-            { item.image && (<S.IMG src={item.image}/>)
-             || (<S.IMG src={SlytherinImg}/>)}
+            { item.image ? (<S.IMG src={item.image} alt={item.name}/>)
+             : (<S.IMG src={SlytherinImg} alt="Slytherin symbol"/>)}
             <S.UL>
               <S.LI>Nome: {item.name}</S.LI>
               <S.LI>Ator: {item.actor}</S.LI>

@@ -37,8 +37,8 @@ const Characters = () => {
                 <S.Box>
                 {persons.map( item => (
                     <S.CardInfo>
-                            { (item.image && (<S.Imgs src={item.image} alt={item.name}/>))
-                            || (<S.Imgs src={HogwartsImg} alt="Hogwarts symbol"/>)}
+                            { item.image ? (<S.Imgs src={item.image} alt={item.name}/>)
+                            : (<S.Imgs src={HogwartsImg} alt="Hogwarts symbol"/>)}
                         <S.Ul>
                             <S.Li>Nome: {item.name}</S.Li>
                             <S.Li>Ator: {item.actor}</S.Li>
