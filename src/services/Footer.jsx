@@ -23,7 +23,7 @@ const Footer = () => {
                         ©  Copyright 2022 - Desenvolvido por Isabella Lessa.
                     </S.Copy>
                     <S.BTN>
-                        <a href='/#'><S.Arrow src={Arrow}/></a>
+                        <a href='#'><S.Arrow src={Arrow}/></a>
                     </S.BTN>
                 </S.BoxFooter>
             </S.Footer>
