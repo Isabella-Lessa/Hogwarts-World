@@ -10,7 +10,7 @@ const Hufflepuff = () => {
 
     const [huffle, sethuffle] = useState([])
 
-    const huffleAPI = ('https://hp-api.herokuapp.com/api/characters/house/hufflepuff')
+    const huffleAPI = ('https://hp-api.onrender.com/api/characters/house/hufflepuff')
 
     useEffect( () => {
 

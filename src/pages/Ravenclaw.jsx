@@ -10,7 +10,7 @@ const Ravenclaw = () => {
 
     const [raven, setraven] = useState([])
 
-    const ravenAPI = ('https://hp-api.herokuapp.com/api/characters/house/ravenclaw')
+    const ravenAPI = ('https://hp-api.onrender.com/api/characters/house/ravenclaw')
 
     useEffect( () => {
 

@@ -10,7 +10,7 @@ const Gryffindor = () => {
 
     const [gryf, setGryf] = useState([])
 
-    const gryfAPI = ('https://hp-api.herokuapp.com/api/characters/house/gryffindor')
+    const gryfAPI = ('https://hp-api.onrender.com/api/characters/house/gryffindor')
 
     useEffect( () => {
 

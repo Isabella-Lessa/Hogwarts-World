@@ -10,7 +10,7 @@ const Slytherin = () => {
 
     const [sly, setSly] = useState([])
 
-    const slyAPI = ('https://hp-api.herokuapp.com/api/characters/house/slytherin')
+    const slyAPI = ('https://hp-api.onrender.com/api/characters/house/slytherin')
 
 
     useEffect( () => {

@@ -10,7 +10,7 @@ const Characters = () => {
 
     const [persons, setPersons] = useState([])
 
-    const API = 'http://hp-api.herokuapp.com/api/characters'
+    const API = 'https://hp-api.onrender.com/api/characters'
 
     useEffect( () => {
         axios
